@@ -1,6 +1,6 @@
 package com.btscpu.json2db.model;
 
-public class Example {
+public class Etymology {
 
     private String english;
     private String chinese;

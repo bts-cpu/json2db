@@ -1,9 +1,25 @@
 package com.btscpu.json2db.model;
 
-import lombok.Data;
+import java.util.List;
 
-@Data
 public class SpecialTranslation {
+
     private String major;
-    private String nat;
+    private List<String> translations;
+
+    public String getMajor() {
+        return major;
+    }
+
+    public void setMajor(String major) {
+        this.major = major;
+    }
+
+    public List<String> getTranslations() {
+        return translations;
+    }
+
+    public void setTranslations(List<String> translations) {
+        this.translations = translations;
+    }
 }
